@@ -16,7 +16,7 @@ LT3 = 0       #响应时间小于3s次数
 class RequestThread(threading.Thread):
     def __init__(self,thread_name):
         threading.Thread.__init__(self)
-        self.test_count = 0
+        #self.test_count = 0
 
     def run(self):
         self.test_performance()
